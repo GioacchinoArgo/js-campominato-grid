@@ -29,7 +29,7 @@ header {
     align-items: center;
 }
 
-.btn {
+#btn {
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
@@ -41,9 +41,9 @@ header {
 /* Grid */
 
 #grid {
-    width: 500px;
-    height: 500px;
-    margin: 60px auto;
+    width: 650px;
+    height: 650px;
+    margin: 120px auto;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -52,8 +52,12 @@ header {
 #grid .cell {
     height: calc(100% / 10);
     width: calc(100% / 10); 
-    border: 2px solid #FFF;
-
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
 }
 
 .cell.clicked {
